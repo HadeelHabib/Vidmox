@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --light-blue: #186EF2;
+  --dark-blue: #6D18EF;
+  --blue-lighter: #4D69F1;
+  --green: #A1D661;
+  --yellow-mix: #E8EC3E;
+  --pink-mix: #E8937C;
+  --mov-mix: #8C91ED;
+  --light-mov: #C3CEFF;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+.transperant-theme{
+  mix-blend-mode: luminosity;
+  
+}
+.mix-color {
+  background: linear-gradient(to right, #186EF2, #6D18EF);
+ 
+  
+}
+.mix-color2{
+  color: linear-gradient(to right, #186EF2, #6D18EF);
+  text-emphasis-color: linear-gradient(to right, #186EF2, #6D18EF);
+}
+body {
+
+}
