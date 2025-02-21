@@ -1,4 +1,4 @@
-import { IMGS } from "@/utils/imgs";
+// import { IMGS } from "@/utils/imgs";
 import Ratings from "@/utils/ratings";
 import Image from "next/image";
 import React from "react";
@@ -18,7 +18,7 @@ const Review = () => {
           <Ratings rating={4} />
         </div>
         <div className="w-[80%] mx-auto flex gap-x-6 items-center mt-[40px]">
-          <Image className="w-[79.3px] h-[82.47px]" src={IMGS.profile} alt="" />
+          {/* <Image className="w-[79.3px] h-[82.47px]" src={IMGS.profile} alt="" /> */}
           <div className="">
             <h1 className="font-jost text-[20px]">John Williams</h1>
             <h1 className="text-[16.4px] opacity-50">Lead designer</h1>

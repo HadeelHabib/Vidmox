@@ -4,7 +4,7 @@ export const nav : NavItems[] = [{
 },
 {
     name: 'Products',
-    url: '/products'
+    url: '/#products'
 },
 {
     name: 'Documentation',
@@ -12,10 +12,10 @@ export const nav : NavItems[] = [{
 },
 {
     name: 'Pricing',
-    url: 'pricing'
+    url: '/#pricing'
 },
 {
     name: 'Watch demo',
-    url: '/watchdemo'
+    url: '/#watchdemo'
 },
 ]

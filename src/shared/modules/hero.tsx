@@ -1,4 +1,3 @@
-import { IMGS } from "@/utils/imgs";
 import { Button } from "@heroui/react";
 import Image from "next/image";
 import React from "react";
@@ -30,13 +29,13 @@ const Hero = () => {
           </div>
         </div>
         <div className="mr-0 relative  w-[841px] h-[699px]">
-          <Image className="opacity-[40%] transperant-theme" src={IMGS.landing} alt="" />
+          {/* <Image className="opacity-[40%] transperant-theme" src={IMGS.landing} alt="" /> */}
           <div className="absolute inset-y-0 left-[-50px] w-1/4 bg-black opacity-90 h-[800px] top-[-20px] blur-lg"></div>
 
         </div>
       </div>
       <div className="my-20 ">
-        <Image className="w-full" src={IMGS.frame} alt="" />
+        {/* <Image className="w-full" src={IMGS.frame} alt="" /> */}
       </div>
     </div>
   );

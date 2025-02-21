@@ -1,4 +1,4 @@
-import { IMGS } from "@/utils/imgs";
+// import { IMGS } from "@/utils/imgs";
 import { Button } from "@heroui/react";
 import Image from "next/image";
 import React from "react";
@@ -21,7 +21,7 @@ const Card: React.FC<CardProps> = ({ color, border}) => {
           .fill(null)
           .map((_, index) => (
             <div key={index} className="flex items-start gap-x-4 mb-6">
-              <Image className="inline-block w-[24px]" src={IMGS.check} alt="Check icon" />
+              {/* <Image className="inline-block w-[24px]" src={IMGS.check} alt="Check icon" /> */}
               <div>
                 <h3 className="inline text-[20px] font-[500]">
                   Weekly Check-ins via WhatsApp

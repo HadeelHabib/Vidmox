@@ -1,7 +1,6 @@
 "use client";
 import { nav } from "@/configs/constants";
 import { ICONS } from "@/utils/icons";
-import { IMGS } from "@/utils/imgs";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -11,12 +10,12 @@ const Footer = () => {
   return (
     <div>
       <div className="relative">
-        <Image className="" src={IMGS.shape} alt="" />
-        <Image
+        {/* <Image className="" src={IMGS.shape} alt="" /> */}
+        {/* <Image
           src={IMGS.logo}
           alt=""
           className="absolute bottom-[39px] right-[640px] w-[191px]"
-        />
+        /> */}
       </div>
       <div className=" flex items-center justify-between mt-[10%] w-[80%] mx-auto pb-6   ">
         <div className="flex gap-x-4 items-center text-white font-jost">

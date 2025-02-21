@@ -1,4 +1,3 @@
-import logo from '@/assets/Logo white.png'
 import frame from '@/assets/Frame 87.png'
 import logoipsum1 from '@/assets/logoipsum-211 1.png'
 import logoipsum2 from '@/assets/logoipsum-211 2.png'
@@ -26,7 +25,6 @@ import roundecibe3 from'@/assets/RoundCube-Purple-Glossy 3.png'
 import profile from '@/assets/Ellipse 1.png'
 
 export const IMGS : any = {
-logo,
 logoipsum1,
 logoipsum2,
 logoipsum3,
